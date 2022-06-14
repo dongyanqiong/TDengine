@@ -108,6 +108,9 @@ elif echo $osinfo | grep -qwi "Kylin"; then
 elif echo $osinfo | grep -qwi "centos"; then
   #  echo "This is centos system"
   os_type=2
+elif echo $osinfo | grep -qwi "Red"; then
+  #  echo "This is redhat system"
+  os_type=2
 elif echo $osinfo | grep -qwi "fedora"; then
   #  echo "This is fedora system"
   os_type=2
